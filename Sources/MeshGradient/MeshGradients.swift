@@ -1,6 +1,6 @@
 import SwiftUI
 
-@available(iOS 14.0, macOS 15.0, *)
+@available(iOS 18.0, macOS 15.0, *)
 public struct DefaultMeshGradient: View {
     let points: [SIMD2<Float>] = [
         SIMD2<Float>(0.0, 0.0), SIMD2<Float>(0.5, 0.0), SIMD2<Float>(1.0, 0.0),
